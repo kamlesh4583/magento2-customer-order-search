@@ -9,15 +9,18 @@ php bin/magento setup:upgrade --keep-generated <br/>
 php bin/magento setup:di:compile <br/>
 php bin/magento cache:flush <br/>
 
-after using above commands it will be automatically activated and will show to your customer-> My Order <br/>
-you will be able to filter order no's,Product Sku's and created date as Date Range.
+After executing using above commands, the custom module will be get activated and will show to your customer/My Account/My Dashboard-> My Order <br/>
+you will be able to filter order #,Product Sku's and created date as Date Range.
 
-login as customer 
-Goto My orders.
 ## Compatible
 Magento 2.x
 
 ## Screenshot
+
+![screenshot](https://github.com/kamlesh4583/magento2-customer-order-search/assets/19305695/d488d7b7-d30a-4b44-8096-0d0d9c52d763)
+
+
+
 
 
 
