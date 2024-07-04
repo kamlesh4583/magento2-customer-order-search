@@ -1,0 +1,37 @@
+{
+    "name": "k2/customer-order-search",
+    "description": "Magento 2 - Customer can search  orders in order history",
+    "require": {
+      "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|^8.0"
+    },
+    "keywords": [
+      "Magento",
+      "Magento 2",
+      "Magento 2 CustomerOrderSearch",
+      "Magento 2 CustomerOrderSearch free extension",
+      "Magento 2 free extension",
+      "CustomerOrderSearch",
+      "Customer Order Search"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+      "MIT"
+    ],
+    "authors": [
+      {
+        "name": "K2",
+        "email": "kamlesh4.rajput@gmail.com",
+        "role": "Magento 2 | PWA Studio Developer"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "K2\\CustomerOrderSearch\\": ""
+      }
+    }
+  }
+

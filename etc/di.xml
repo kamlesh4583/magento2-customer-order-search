@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\Sales\Block\Order\History" type="K2\CustomerOrderSearch\Block\Order\History"/>
+    <type name="K2\CustomerOrderSearch\Block\Order\History">
+        <arguments>
+            <argument name="specialFilter" xsi:type="array">
+                <item name="skuFilter" xsi:type="object">K2\CustomerOrderSearch\Model\Filters\SkuFilter</item>
+                <item name="dateFilter" xsi:type="object">K2\CustomerOrderSearch\Model\Filters\DateFilter</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
